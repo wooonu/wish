@@ -1,4 +1,5 @@
-body {
+/* 모든 마진과 패딩을 지워야 할 때는 *(별) */
+* {
   margin: 0;
   padding: 0;
   /* header 아래 선도 가운데 정렬이 되어서 적은 코드 */
@@ -13,10 +14,10 @@ body {
 
 #body {
   height: 100%;
-  background-color: blue;
   width: 1024px;
   margin: 0 auto;
   /* margin: 0 auto; = 부모로부터 가운데 정렬 */
+  padding-bottom: 24px;
 }
 
 #footer {
@@ -41,3 +42,63 @@ body {
   width: 128px;
   height: 36px;
 }
+
+#banner > img {
+  width: 100%;
+}
+
+<<<<<<< HEAD
+#body > h1 {
+  margin-top: 16px;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex = 수평정렬 / wrap = 너비를 자동으로 줄이지 않게 자동 줄바꿈 */
+  margin-top: 12px;
+}
+
+.product-card {
+  width: 180px;
+  height: 300px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 12px;
+}
+
+.product-img {
+  width: 100%;
+  height: 210px;
+}
+
+.product-contents {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.product-name {
+  font-size: 14px;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: 600px;
+  margin-top: 4px;
+}
+
+.product-seller {
+  display: flex;
+  align-items: center;
+  /* align-item: center; = flex로 가운데 정렬 상태에서 수직정렬 */
+  margin-top: 12px;
+}
+
+.product-avatar {
+  width: 24px;
+}
+=======
+/* 깃허브 올라가나 확인 */
+>>>>>>> parent of 5b237fe (확인)
