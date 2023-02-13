@@ -6,9 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="index.css" type="text/css" rel="stylesheet" />
+    <style>
+      @font-face {
+        font-family: "LeeSeoyun";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        font-family: "LeeSeoyun";
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        background-image: url("./background.png");
+      }
+    </style>
   </head>
   <body>
-    <h1 class="myclass">나는 클래스 해딩 태그입니다.</h1>
-    <h1 id="myid">나는 아이디 헤딩 태그입니다.</h1>
+    <div class="container">
+      <div class="photos">
+        <div id="image1" class="photo-frame">
+          <span id="desc1" class="photo_description"> 귀염둥이 파마 전 </span>
+        </div>
+        <div id="image2" class="photo-frame">
+          <span id="desc1" class="photo_description"> 눈물 뚝뚝 파마 중 </span>
+        </div>
+        <div id="image3" class="photo-frame">
+          <span id="desc1" class="photo_description"> 뽀글뽀글 파마 후 </span>
+        </div>
+        <div id="image4" class="photo-frame">
+          <span id="desc1" class="photo_description"> 집으로 돌아가는 중 </span>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="f-title">아기서의 첫 파마 도전!</p>
+        <p class="f-date">2023.02.07</p>
+      </div>
+    </div>
   </body>
 </html>
