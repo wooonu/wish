@@ -14,6 +14,8 @@
   height: 200px;
   background-size: cover;
   position: relative;
+
+  cursor: pointer;
 }
 
 .footer {
@@ -64,4 +66,20 @@
   bottom: 0;
   transform: translate(0%);
   left: 60%;
+
+  opacity: 0;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.showText {
+  opacity: 0;
+}
+
+.hideText {
+  opacity: 1;
+  transition: opacity 0.5s linear;
 }
