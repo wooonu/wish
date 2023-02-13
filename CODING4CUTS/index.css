@@ -32,7 +32,7 @@
 
 .f-date {
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
 }
 
@@ -82,4 +82,10 @@
 .hideText {
   opacity: 1;
   transition: opacity 0.5s linear;
+}
+
+.absolute-rtan-area {
+  position: fixed;
+  center: 0px;
+  top: 1020px;
 }
